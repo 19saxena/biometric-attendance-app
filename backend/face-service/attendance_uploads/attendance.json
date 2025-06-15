@@ -1,0 +1,30 @@
+[
+  {
+    "timestamp": "2025-06-15T17:57:23.560518",
+    "username": "Saha",
+    "course": "Physics",
+    "professor": "prof_physics",
+    "face_image": "attendance_uploads\\Saha_20250615_175723_face.jpg"
+  },
+  {
+    "timestamp": "2025-06-15T19:00:33.730009",
+    "username": "Papa",
+    "course": "Chemistry",
+    "professor": "prof_chem",
+    "face_image": "attendance_uploads\\Papa_20250615_190033_face.jpg"
+  },
+  {
+    "timestamp": "2025-06-15T19:01:43.213934",
+    "username": "Papa",
+    "course": "Physics",
+    "professor": "prof_physics",
+    "face_image": "attendance_uploads\\Papa_20250615_190143_face.jpg"
+  },
+  {
+    "timestamp": "2025-06-15T19:04:49.041693",
+    "username": "Saha",
+    "course": "Physics",
+    "professor": "prof_physics",
+    "face_image": "attendance_uploads\\Saha_20250615_190449_face.jpg"
+  }
+]

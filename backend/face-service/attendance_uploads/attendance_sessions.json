@@ -1,0 +1,32 @@
+[
+  {
+    "course": "Math",
+    "professor": "X",
+    "start_time": "2025-06-15T18:57:48.421290",
+    "end_time": "2025-06-15T18:57:49.905583"
+  },
+  {
+    "course": "Math",
+    "professor": "X",
+    "start_time": "2025-06-15T18:57:54.069837",
+    "end_time": null
+  },
+  {
+    "course": "Physics",
+    "professor": "X",
+    "start_time": "2025-06-15T18:58:06.911875",
+    "end_time": "2025-06-15T19:05:12.010452"
+  },
+  {
+    "course": "Physics",
+    "professor": "X",
+    "start_time": "2025-06-15T19:04:21.076957",
+    "end_time": "2025-06-15T19:05:01.012877"
+  },
+  {
+    "course": "Physics",
+    "professor": "X",
+    "start_time": "2025-06-15T19:05:07.166824",
+    "end_time": "2025-06-15T19:05:09.410874"
+  }
+]

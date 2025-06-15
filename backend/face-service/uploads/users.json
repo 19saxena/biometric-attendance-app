@@ -1,0 +1,37 @@
+[
+  {
+    "username": "Saha",
+    "password": "Sah",
+    "role": "student",
+    "course": "Maths",
+    "image_path": "uploads\\Saha_face.jpg"
+  },
+  {
+    "username": "Mummy",
+    "password": "Mummy",
+    "role": "student",
+    "course": "Chemistry ",
+    "image_path": "uploads\\Mummy_face.jpg"
+  },
+  {
+    "username": "X",
+    "password": "X",
+    "role": "professor",
+    "course": "Maths",
+    "image_path": "uploads\\X_face.jpg"
+  },
+  {
+    "username": "Papa",
+    "password": "Papa",
+    "role": "student",
+    "course": "Physics",
+    "image_path": "uploads\\Papa_face.jpg"
+  },
+  {
+    "username": "Hehe",
+    "password": "Hehe",
+    "role": "admin",
+    "course": "Hehe",
+    "image_path": "uploads\\Hehe_face.jpg"
+  }
+]
