@@ -17,8 +17,8 @@ import {
 } from "@infinitered/react-native-mlkit-face-detection";
 import { Picker } from "@react-native-picker/picker";
 import axios from "axios";
-
-const BACKEND_URL = "http://192.168.73.236:5000"; // Change to your backend IP
+import Constants from 'expo-constants';
+const BACKEND_URL = Constants.expoConfig.extra.EXPO_PUBLIC_BACKEND_URL;
 
 const FaceImagePicker = ({ onFaceImageSelected }) => {
   const [imageUri, setImageUri] = useState(null);

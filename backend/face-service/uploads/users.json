@@ -33,5 +33,12 @@
     "role": "admin",
     "course": "Hehe",
     "image_path": "uploads\\Hehe_face.jpg"
+  },
+  {
+    "username": "Xxx",
+    "password": "Xx",
+    "role": "professor",
+    "course": "Xxx",
+    "image_path": "uploads\\Xxx_face.jpg"
   }
 ]

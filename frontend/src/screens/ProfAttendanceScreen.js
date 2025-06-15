@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import { View, Text, Button, StyleSheet, Alert } from "react-native";
 import axios from "axios";
 import { Picker } from "@react-native-picker/picker";
+import Constants from 'expo-constants';
+const BACKEND_URL = Constants.expoConfig.extra.EXPO_PUBLIC_BACKEND_URL;
 
-const BACKEND_URL = "http://192.168.73.236:5000"; // Update as needed
 
 const ProfAttendanceScreen = ({ route }) => {
   const [course, setCourse] = useState("");

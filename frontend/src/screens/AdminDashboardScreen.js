@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { View, Text, FlatList, StyleSheet, ActivityIndicator, Alert } from "react-native";
 import axios from "axios";
+import Constants from 'expo-constants';
+const BACKEND_URL = Constants.expoConfig.extra.EXPO_PUBLIC_BACKEND_URL;
 
-const BACKEND_URL = "http://192.168.73.236:5000"; // Change to your backend IP if needed
 
 const AdminDashboardScreen = () => {
   const [users, setUsers] = useState([]);

@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { View, Text, TextInput, Button, Alert, StyleSheet, TouchableOpacity } from "react-native";
 import axios from "axios";
+import Constants from 'expo-constants';
+const BACKEND_URL = Constants.expoConfig.extra.EXPO_PUBLIC_BACKEND_URL;
 
-const BACKEND_URL = "http://192.168.73.236:5000"; // Change to your backend IP
 
 const LoginScreen = ({ navigation }) => {
   const [username, setUsername] = useState("");
@@ -16,6 +17,8 @@ const LoginScreen = ({ navigation }) => {
     }
     setLoading(true);
     try {
+      console.log("Backend URL:", BACKEND_URL);
+
       const res = await axios.post(`${BACKEND_URL}/login`, { username, password });
       const { role, username: loggedInUsername } = res.data;
       if (role === "admin") {

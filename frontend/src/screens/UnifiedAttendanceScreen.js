@@ -13,8 +13,9 @@ import * as ImagePicker from "expo-image-picker";
 import axios from "axios";
 import { useFacesInPhoto } from "@infinitered/react-native-mlkit-face-detection";
 import { Picker } from "@react-native-picker/picker";
+import Constants from 'expo-constants';
+const BACKEND_URL = Constants.expoConfig.extra.EXPO_PUBLIC_BACKEND_URL;
 
-const BACKEND_URL = "http://192.168.73.236:5000"; // Update as needed
 
 const UnifiedAttendanceScreen = ({ route }) => {
   const [authSuccess, setAuthSuccess] = useState(false);
