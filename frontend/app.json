@@ -1,0 +1,70 @@
+{
+  "expo": {
+    "name": "FrontendApp",
+    "slug": "FrontendApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "frontendapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "CAMERA",
+        "CAMERA"
+      ],
+      "package": "com.padfoot19.FrontendApp"
+    }
+  },
+  "web": {
+    "bundler": "metro",
+    "output": "static",
+    "favicon": "./assets/images/favicon.png"
+  },
+  "plugins": [
+    [
+      "react-native-vision-camera",{
+        "cameraPermissionText":"Please click on 'allow' to provide access to your camera."
+      }
+    ],
+    [
+      "vision-camera-face-detector"
+    ],
+    "expo-router",
+    [
+      "expo-splash-screen",
+      {
+        "image": "./assets/images/splash-icon.png",
+        "imageWidth": 200,
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      }
+    ],
+    "expo-font",
+    "expo-web-browser",
+    [
+      "expo-build-properties",
+      {
+        "android": {
+          "kotlinVersion": "1.9.25"
+        }
+      }
+    ]
+  ],
+  "experiments": {
+    "typedRoutes": true
+  },
+  "extra": {
+    "router": {},
+    "eas": {
+      "projectId": "db5d947a-7d64-4d4c-b77b-280bd6b15bf7"
+    }
+  }
+}
